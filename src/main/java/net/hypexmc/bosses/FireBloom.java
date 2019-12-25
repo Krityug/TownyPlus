@@ -1,6 +1,6 @@
 package net.hypexmc.bosses;
 
-import net.minecraft.server.v1_14_R1.EntityMagmaCube;
+
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
@@ -20,7 +20,6 @@ public class FireBloom implements Listener {
 
         entity.setCustomName(Common.colorize("&6&LFire &E&LBloom"));
         entity.setCustomNameVisible(true);
-
 
 
 
