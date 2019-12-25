@@ -1,0 +1,6 @@
+name: TownyPlus
+version: 2.0-SNAPSHOT
+main: net.hypexmc.TownyPlus
+api-version: 1.13
+authors: [HypexMC]
+website: https://hypexmc.net

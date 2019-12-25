@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TownyPlus:jar">
+    <output-path>$USER_HOME$/Desktop/Spigot Server 1.14/plugins</output-path>
+    <root id="archive" name="TownyPlus.jar">
+      <element id="module-output" name="TownyPlus" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/StarBoy228/Foundation/5.1.4/Foundation-5.1.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/mcMMO/1.4.06/mcMMO-1.4.06.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/server/PaperSpigot/1.14.4-SNAPSHOT-146/PaperSpigot-1.14.4-SNAPSHOT-146.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/TownyChat/0.53/TownyChat-0.53.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/FactionsUUID/1.6.9.5-U0.3.0-b133/FactionsUUID-1.6.9.5-U0.3.0-b133.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/Residence/4.8.4.4/Residence-4.8.4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/CMI/8.5.4.1/CMI-8.5.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/AuthMe/5.6.0-SNAPSHOT/AuthMe-5.6.0-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/ProtocolLib/4.5.0/ProtocolLib-4.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/CitizensAPI/2.0.25-b612/CitizensAPI-2.0.25-b612.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/MassiveCore/3.2.2/MassiveCore-3.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/Factions/3.2.2/Factions-3.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/EssentialsX/2.16.1.80/EssentialsX-2.16.1.80.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/NuVotifier/2.5.0/NuVotifier-2.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/MobArena/0.103.1/MobArena-0.103.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/Jobs/4.10.3/Jobs-4.10.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/Vault/1.7.1/Vault-1.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/WorldEdit/7.0.1/WorldEdit-7.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/DiscordSRV/1.18.1/DiscordSRV-1.18.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/PlotSquared/4.222/PlotSquared-4.222.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/Towny/0.93.0.0/Towny-0.93.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/PlaceholderAPI/2.10.2/PlaceholderAPI-2.10.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/Multiverse-Core/3.0.0-SNAPSHOT/Multiverse-Core-3.0.0-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/MythicMobs/4.5.6/MythicMobs-4.5.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/MVdWPlaceholderAPI/2.5.1/MVdWPlaceholderAPI-2.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/LWC/2.1.2/LWC-2.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/WorldGuard/7.0.1/WorldGuard-7.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mineacademy/plugin/LockettePro/2.9.3/LockettePro-2.9.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
