@@ -6,18 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6c68a7-da33-41e8-9c67-7d02e6a03afb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/events/Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/TownyPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/TownyPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/bosses/FireBloom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/bosses/FireBloom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/notifications/ScoreBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/TownyPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/TownyPlus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/bosses/FireBloom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/bosses/FireBloom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/enchantments/Bukkit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/enchantments/Bukkit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/notifications/ScoreBoard.class" beforeDir="false" />
-    </list>
+    <list default="true" id="9d6c68a7-da33-41e8-9c67-7d02e6a03afb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +112,19 @@
       <option name="presentableId" value="Default" />
       <updated>1576781794985</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Greetings on Join&#10;Added Bosses, Given Custom Names&#10;Added Towny Menu Access Item">
+      <created>1577297199616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577297199634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Greetings on Join&#10;Added Bosses, Given Custom Names&#10;Added Towny Menu Access Item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Greetings on Join&#10;Added Bosses, Given Custom Names&#10;Added Towny Menu Access Item" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576784883272">
@@ -138,6 +139,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="55" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1577034289110" />
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577297195799">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577297195799" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1577236877054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
