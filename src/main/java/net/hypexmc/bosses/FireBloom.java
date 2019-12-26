@@ -15,7 +15,7 @@ public class FireBloom implements Listener {
 
         Entity entity = event.getEntity();
 
-        if(entity.getType() == EntityType.MAGMA_CUBE)
+        if(entity.getType() != EntityType.MAGMA_CUBE)
             return;
 
         entity.setCustomName(Common.colorize("&6&LFire &E&LBloom"));

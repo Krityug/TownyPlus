@@ -9,12 +9,17 @@ import org.mineacademy.fo.remain.Remain;
 
 public class Greet implements Listener {
 
+    //TODO Remove the comment and make the title working once december is over
+
+    /*
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
 
 
         Remain.sendTitle(player,20,30,20,Common.colorize("&9&LHypexMC &F&LNetwork")
-                ,Common.colorize("&F&LIntroducing &E&LTreasure &B&LHunt"));
+                ,Common.colorize("&F&LIntroducing &E&LTownyPlus &B&LV2.0"));
     }
+
+     */
 }

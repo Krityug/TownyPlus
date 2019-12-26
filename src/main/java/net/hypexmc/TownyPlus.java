@@ -7,6 +7,7 @@ import net.hypexmc.commands.HammerShopCommand;
 import net.hypexmc.commands.ManagerPanelCommand;
 import net.hypexmc.commands.SettingsPanelCommand;
 import net.hypexmc.events.Greet;
+import net.hypexmc.events.SeasonRewards;
 import org.bukkit.Bukkit;
 import org.mineacademy.fo.plugin.SimplePlugin;
 
@@ -32,7 +33,9 @@ public final class TownyPlus extends SimplePlugin {
         Bukkit.getPluginManager().registerEvents(new TownWarrior(),this);
         Bukkit.getPluginManager().registerEvents(new NightDevil(),this);
         Bukkit.getPluginManager().registerEvents(new FireBloom(),this);
-        Bukkit.getPluginManager().registerEvents(new Greet(),this);
+        Bukkit.getPluginManager().registerEvents(new SeasonRewards(),this);
+
+       //Bukkit.getPluginManager().registerEvents(new Greet(),this);
 
 
         //Scoreboard and Bungee Events, Other things will be listed below.
