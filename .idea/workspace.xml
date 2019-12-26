@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d6c68a7-da33-41e8-9c67-7d02e6a03afb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/commands/CommunityCenterCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/configuration/YAMLEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/events/SeasonRewards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/quests/WonderAround.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/TownyPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/TownyPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/bosses/FireBloom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/bosses/FireBloom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/events/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/events/Greet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/TownyPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/TownyPlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/menus/ManagerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/menus/ManagerPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,13 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577319254069</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added CommunityCenterCommand to access the player's current town manager panel. (Only to the Town's Members can access it).&#10;&#10;Added YAMLEditor to edit the files inside the game and update it on all the running instances.&#10;&#10;Added SeasonRewards to give out special rewards during christmas season.">
+      <created>1577321017146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577321017146</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Greetings on Join&#10;Added Bosses, Given Custom Names&#10;Added Towny Menu Access Item" />
     <MESSAGE value="Added Switch Account function about ManagerPanel&#10;Fixed Basics Bugs&#10;Added Auto-Debugger which will deploy to see any bugs changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Switch Account function about ManagerPanel&#10;Fixed Basics Bugs&#10;Added Auto-Debugger which will deploy to see any bugs changes." />
+    <MESSAGE value="Added CommunityCenterCommand to access the player's current town manager panel. (Only to the Town's Members can access it).&#10;&#10;Added YAMLEditor to edit the files inside the game and update it on all the running instances.&#10;&#10;Added SeasonRewards to give out special rewards during christmas season." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CommunityCenterCommand to access the player's current town manager panel. (Only to the Town's Members can access it).&#10;&#10;Added YAMLEditor to edit the files inside the game and update it on all the running instances.&#10;&#10;Added SeasonRewards to give out special rewards during christmas season." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576784883272">
@@ -178,10 +182,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577307676779" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577320219021">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577321014834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577320219021" />
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577321014834" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1577236877054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -230,10 +234,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577319582546" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1577319257441">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1577321022127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577319257441" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577321022127" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1577051323365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

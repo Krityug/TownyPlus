@@ -29,12 +29,13 @@ public final class TownyPlus extends SimplePlugin {
         // Sometimes they may crash while foundation gets a error.
 
 
+        //Gitlab Integration
+
     //Events which are manually registered are below:
         Bukkit.getPluginManager().registerEvents(new TownWarrior(),this);
         Bukkit.getPluginManager().registerEvents(new NightDevil(),this);
         Bukkit.getPluginManager().registerEvents(new FireBloom(),this);
         Bukkit.getPluginManager().registerEvents(new SeasonRewards(),this);
-
        //Bukkit.getPluginManager().registerEvents(new Greet(),this);
 
 

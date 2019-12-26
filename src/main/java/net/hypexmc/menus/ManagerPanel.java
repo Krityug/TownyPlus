@@ -156,10 +156,30 @@ public class ManagerPanel extends Menu {
 
     class SwitchAccount extends Menu {
 
+        private final Button ProfileSlots;
+
+
         public SwitchAccount() {
             super(ManagerPanel.this);
             setSize(45);
             setTitle("&8Switch Account");
+
+            ProfileSlots = new Button() {
+                @Override
+                public void onClickedInMenu(Player player, Menu menu, ClickType click) {
+
+                }
+
+                @Override
+                public ItemStack getItem() {
+
+                    ItemStack SlotsManagerLayout = ItemCreator.of(CompMaterial.AIR,"&AProfile Slot 1",
+                            "","","")
+                            .build().make();
+
+                    return SlotsManagerLayout;
+                }
+            };
         }
 
         @Override
