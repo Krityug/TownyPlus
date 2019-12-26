@@ -11,12 +11,29 @@ import org.mineacademy.fo.remain.CompMaterial;
 
 public class ManagerPanel extends Menu {
 
-    private final Button Events,Quests,VirtualBank,Close;
+    private final Button Events,Quests,VirtualBank,Close,SwitchAccount;
 
     public ManagerPanel() {
         super(null);
         setSize(45);
         setTitle("&8Towny Manager Panel");
+
+        SwitchAccount = new Button() {
+            @Override
+            public void onClickedInMenu(Player player, Menu menu, ClickType click) {
+            new SwitchAccount().displayTo(player);
+            }
+
+            @Override
+            public ItemStack getItem() {
+
+                ItemStack Swtich = ItemCreator.of(CompMaterial.BOOKSHELF,"&ASwitch Account",
+                        "&8Basic Gadget","","&7In order to play with your friends.","&7You must create &7a new &baccount&7.","","&BAvailable Slots: &87 per player","","&EClick to view profiles!")
+                        .build().make();
+
+                return Swtich;
+            }
+        };
 
         VirtualBank = new Button() {
             @Override
@@ -98,6 +115,9 @@ public class ManagerPanel extends Menu {
     @Override
     public ItemStack getItemAt(int slot) {
 
+        if(slot == 39)
+                return SwitchAccount.getItem();
+
         if(slot == 12)
             return VirtualBank.getItem();
 
@@ -121,10 +141,25 @@ public class ManagerPanel extends Menu {
 
     class QuestsMenu extends Menu {
 
+
         public QuestsMenu() {
          super(ManagerPanel.this);
          setSize(45);
-         setTitle("&8Quests Panel");
+         setTitle("&8Towny Quests");
+        }
+
+        @Override
+        protected String[] getInfo() {
+            return null;
+        }
+    }
+
+    class SwitchAccount extends Menu {
+
+        public SwitchAccount() {
+            super(ManagerPanel.this);
+            setSize(45);
+            setTitle("&8Switch Account");
         }
 
         @Override

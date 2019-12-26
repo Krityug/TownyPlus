@@ -14,8 +14,8 @@ import org.mineacademy.fo.model.SimpleEnchantment;
 import org.mineacademy.fo.remain.CompMaterial;
 
 @Getter
-public class Bukkit extends SimpleEnchantment {
-
+public class Bukkit  {
+/*
     public static final Enchantment instance = new Bukkit();
 
     public Bukkit() {
@@ -43,4 +43,6 @@ public class Bukkit extends SimpleEnchantment {
 
         super.onBreakBlock(level, event);
     }
+
+ */
 }

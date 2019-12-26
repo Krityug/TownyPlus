@@ -14,7 +14,7 @@ public class Greet implements Listener {
         Player player = event.getPlayer();
 
 
-        Remain.sendTitle(player,10,30,10,Common.colorize("&9&LHypexMC &F&LNetwork")
+        Remain.sendTitle(player,20,30,20,Common.colorize("&9&LHypexMC &F&LNetwork")
                 ,Common.colorize("&F&LIntroducing &E&LTreasure &B&LHunt"));
     }
 }

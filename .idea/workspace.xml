@@ -6,7 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6c68a7-da33-41e8-9c67-7d02e6a03afb" name="Default Changelist" comment="" />
+    <list default="true" id="9d6c68a7-da33-41e8-9c67-7d02e6a03afb" name="Default Changelist" comment="Added Switch Account function about ManagerPanel&#10;Fixed Basics Bugs&#10;Added Auto-Debugger which will deploy to see any bugs changes.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/managers/LandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/TownyPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/TownyPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/enchantments/Bukkit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/enchantments/Bukkit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/events/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/events/Greet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/events/TownyMenuAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/hypexmc/menus/ManagerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/hypexmc/menus/ManagerPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/TownyPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/TownyPlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/enchantments/Bukkit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/enchantments/Bukkit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/events/TownyMenuAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$QuestsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel$QuestsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/hypexmc/menus/ManagerPanel.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,30 +136,46 @@
       <option name="project" value="LOCAL" />
       <updated>1577297199634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Greetings on Join&#10;Added Bosses, Given Custom Names&#10;Added Towny Menu Access Item">
+      <created>1577297372664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577297372664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Greetings on Join&#10;Added Bosses, Given Custom Names&#10;Added Towny Menu Access Item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Greetings on Join&#10;Added Bosses, Given Custom Names&#10;Added Towny Menu Access Item" />
+    <MESSAGE value="Added Switch Account function about ManagerPanel&#10;Fixed Basics Bugs&#10;Added Auto-Debugger which will deploy to see any bugs changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Switch Account function about ManagerPanel&#10;Fixed Basics Bugs&#10;Added Auto-Debugger which will deploy to see any bugs changes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576784883272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576784883272" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1577126226658">
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1577309758130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577126226658" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577309758130" />
     <state x="450" y="55" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1577034289110">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="450" y="55" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1577034289110" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577297195799">
+    <state x="479" y="223" width="407" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577297890531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577297195799" />
+    <state x="479" y="223" width="407" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1577297890531" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577307676779">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577307676779" />
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1577319131941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577319131941" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1577236877054">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -155,42 +188,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="398" y="49" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577236933924" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1577297125254">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1577310257735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577297125254" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1577297125254">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577310257735" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1577310257735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577297125254" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1577297125254">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577310257735" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1577310257734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577297125254" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1577297125254">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577310257734" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1577310257735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577297125254" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1577297125255">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577310257735" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1577310257735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577297125255" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1577297125255">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577310257735" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1577310257735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577297125255" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1577297125254">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577310257735" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1577310257735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577297125254" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1577297125255">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577310257735" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1577310257735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577297125255" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1577295478489">
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577310257735" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1577297932253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577295478489" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577297932253" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1577297377258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577297377258" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1577051323365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
